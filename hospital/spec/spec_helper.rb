@@ -3,6 +3,7 @@ require("pg")
 require("doctor")
 require("patient")
 require('pry')
+require('date')
 
 DB = PG.connect({:dbname => "hospital_test"})
 
