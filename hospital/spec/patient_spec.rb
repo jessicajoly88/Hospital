@@ -9,6 +9,12 @@ describe(Patient) do
     end
   end
 
+  describe('.all') do
+    it('is empty') do
+      expect(Patient.all()).to(eq([]))
+    end
+  end
+
 
 
 end
